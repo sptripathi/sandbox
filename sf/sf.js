@@ -1,6 +1,6 @@
 var jsforce = require('jsforce');
 var username="satripa@demosmb.com";
-var password = "Satya@1978"+ "my_security_token";
+var password = "my_passwd"+ "my_security_token";
 
 var conn = new jsforce.Connection({
   // you can change loginUrl to connect to sandbox or prerelease env.
